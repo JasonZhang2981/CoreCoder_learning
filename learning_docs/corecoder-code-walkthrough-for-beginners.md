@@ -4,6 +4,8 @@
 
 你可以把前一份 [速成学习路线](corecoder-learning-roadmap.md) 当作阅读顺序，把本文当作逐步讲义。路线告诉你先看什么，本文告诉你每段代码是什么意思。
 
+如果你在阅读时被 Python 写法卡住，例如 `@dataclass`、`list[dict] | None`、`@property`、`Path(...)`、`ABC`、`ThreadPoolExecutor`，先看这份补充文档：[CoreCoder 项目 Python 基础补全](corecoder-python-basics.md)。
+
 ## 0. 先建立一个最小心智模型
 
 CoreCoder 本质上是一个命令行里的 AI 编程助手。它做的事情可以压缩成一句话：

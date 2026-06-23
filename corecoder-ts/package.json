@@ -1,0 +1,19 @@
+{
+  "name": "corecoder-ts-learning",
+  "version": "0.1.0",
+  "description": "TypeScript learning mirror of CoreCoder.",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "corecoder-ts": "./dist/src/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "npm run build && node --test \"dist/tests/**/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.0",
+    "typescript": "^5.9.0"
+  }
+}
