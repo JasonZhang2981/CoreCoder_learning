@@ -165,6 +165,13 @@ quit             退出
 
 我还写了 [7 篇 Claude Code 架构深度导读](article/)：Agent 循环、工具系统、上下文压缩、流式执行、多 Agent、隐藏功能。想知道 CoreCoder 为什么这样设计，从那里开始。
 
+配套学习文档：
+
+- [CoreCoder 速成学习路线](learning_docs/corecoder-learning-roadmap.md)
+- [CoreCoder 新手源码讲解](learning_docs/corecoder-code-walkthrough-for-beginners.md)
+- [CoreCoder 项目 Python 基础补全](learning_docs/corecoder-python-basics.md)
+- [CoreCoder 项目 TypeScript 基础补全](learning_docs/corecoder-typescript-basics.md)
+
 ## FAQ
 
 **CoreCoder 支持 Skill / Subagent / MCP 吗？**
